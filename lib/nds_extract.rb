@@ -48,9 +48,10 @@ def total_gross(source)
   running_total = 0
 starting_index = 0
 while starting_index < source.length 
-pp directors_totals(source)[(list_of_directors(source)[starting_index])]
+running_total = running_total + directors_totals(source)[(list_of_directors(source)[starting_index])]
    starting_index += 1 
-  end  
+  end 
+  running_total
 end
 
 
