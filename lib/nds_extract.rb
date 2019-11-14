@@ -54,4 +54,4 @@ end
 running_total
 end
 
-pp d
+pp gross_for_director(d)
