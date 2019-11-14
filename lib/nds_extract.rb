@@ -47,7 +47,7 @@ def total_gross(source)
   # return the total
   running_total = 0
 starting_index = 0 
-pp list_of_directors
+pp list_of_directors(source)
 end
 
 
